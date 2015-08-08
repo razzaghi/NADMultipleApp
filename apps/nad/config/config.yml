@@ -1,4 +1,6 @@
 imports:
+    - { resource: "../../config/common_parameters.yml" }
+    - { resource: "../../config/common_config.yml" }
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }

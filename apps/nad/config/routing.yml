@@ -1,3 +1,4 @@
-app:
-    resource: "@AppBundle/Controller/"
+nad_default:
+    resource: "@NADDefaultBundle/Controller/"
     type:     annotation
+    prefix:   /

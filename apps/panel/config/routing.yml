@@ -1,3 +1,4 @@
-app:
-    resource: "@AppBundle/Controller/"
+panel_default:
+    resource: "@PanelDefaultBundle/Controller/"
     type:     annotation
+    prefix:   /

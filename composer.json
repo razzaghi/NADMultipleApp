@@ -53,7 +53,7 @@
         "symfony-web-dir": "web/nad",
         "symfony-assets-install": "relative",
         "incenteev-parameters": {
-            "file": "app/config/parameters.yml"
+            "file": "apps/config/common_parameters.yml"
         },
         "branch-alias": {
             "dev-master": "2.7-dev"

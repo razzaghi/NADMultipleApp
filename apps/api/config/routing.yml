@@ -1,3 +1,9 @@
-app:
-    resource: "@AppBundle/Controller/"
+api_rest:
+    resource: "@APIRestBundle/Controller/"
     type:     annotation
+    prefix:   /
+
+api_default:
+    resource: "@APIDefaultBundle/Controller/"
+    type:     annotation
+    prefix:   /
